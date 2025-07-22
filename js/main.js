@@ -1,7 +1,6 @@
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
-  // const choice = document.querySelector('input').value
   const url = 'https://foodish-api.com/api/'
 
   fetch(url)
